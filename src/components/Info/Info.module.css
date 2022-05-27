@@ -1,0 +1,46 @@
+.Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+.Info h1, h3{
+    margin: 10px 20px;
+}
+
+.Info h3 {
+    color: #7e7e7e;
+}
+
+.Info ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.Info ul li {
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+
+.Info ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.Info ul li a:visited{
+    color: #FFFFFF;
+}
+
+.date {
+    font-size: 15px;
+    color: #7e7e7e;
+}
